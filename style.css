@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+   margin: 0;
+    box-sizing: border-box;
+    background-image: url(https://images.unsplash.com/photo-1696552004842-8c72b901e2a8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnMlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D);
+} 
+.navs{
+    display: flex;
+}
+.top{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.titl{
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: "Dancing Script", cursive;
+}
+.nav{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 100px;
+    font-stretch: condensed;
+    font-size:  16px;
+}
+
+.navbar{
+    font-family: "Playfair Display", serif;
+    position: fixed;
+   margin-left: 1000px;
+   animation: animate 5sec infinite linear;
+   
+}
+.glow{
+    filter:drop-shadow(-20px 0px 1.75em rgb(94, 168, 181));
+    
+}
+.navbar-nav a{
+    color: azure;
+    font-family: "Amatic SC", sans-serif;
+}
+.nav-link a{
+    color: azure;
+}
+.p{
+    margin-top: 380px;
+    margin-left: 98px ;
+    color:azure;
+    font-size: 13px;
+
+}
+.p h1{
+    margin-left: 30px;
+}
+.imm{
+    display: flex;
+}
+.p h1{
+    font-family: "Abril Fatface", serif;
+    }
+.p p{
+    font-family: "Macondo", cursive;
+}
+.image1{
+    margin-top: 320px;
+    margin-right: 150px;
+}
+.p-2{
+    margin-top: 380px;
+    margin-right: 160px;
+    padding: 25px;
+    color:azure;
+    padding: 10px;
+   gap: 10px;
+}
+.imgs{
+    display: flex;
+}
+.p-2 p{
+    font-family: "Macondo", cursive;
+    font-size: 13px;
+}
+.p-2 h1{
+    font-family: "Abril Fatface", serif;
+}
+.btn{
+    font-family: "Abril Fatface", serif;
+  background: linear-gradient(rgb(75, 105, 133),rgb(67,87,67));
+  color: azure;
+}
+.btn1{
+    font-family: "Abril Fatface", serif;
+  background: linear-gradient(rgb(75, 105, 133),rgb(67,87,67));
+  color: azure;
+}
+.p3 h1{
+    font-family: "Abril Fatface", serif;
+}
+.p3 p{
+    font-family: "Macondo", cursive;
+    font-size: 13px;
+    color: blue;
+}
+.image2{
+    margin-top: 320px;
+    margin-left: 230px;
+}
+.images3{
+    margin-top: 410px;
+    margin-right: 29%;
+}
+.p3{
+    margin-top: 380px;
+    margin-right: 50px;
+    padding: 25px;
+    color:azure;
+    padding: 10px;
+   gap: 10px;
+}
+.images{
+    animation: float 2s ease-in-out infinite;
+}
+.images3{
+    animation: float 2s ease-in-out infinite;
+}
+.gameer{
+    animation: float 2s ease-in-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.card-1 img{
+    animation: float 2s ease-in-out infinite;
+}
+.card-2 img{
+    animation: float 2s ease-in-out infinite;
+}
+.card-3 img{
+    animation: float 2s ease-in-out infinite;
+}
+.title{
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-between;
+}
+.p-3 h1{
+    font-size: 30px;
+    margin-top: 180px;
+    font-family: "Baskervville SC", serif;
+    font-style: normal;
+}
+.p-4 h1{
+    font-size: 20px;
+    margin-left: 75px;
+    margin-top: 180px;
+    font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.game{
+    font-family: "Abril Fatface", serif;
+}
+.games{
+    font-family: "Abril Fatface", serif;
+    margin-top: 120px;
+}
+.imaag{
+    margin-top: 85px;
+}
+.gamer{
+    margin-top: 170px;
+}
+.gamer h2{
+    margin-right: 30px;
+   
+    margin-top: 120px;
+}
+.pw2{
+    font-family: "Satisfy", cursive;
+   
+    margin-right: 100px;
+   
+    color-interpolation-filters: linearRGB;
+    
+}
+.gamms{
+    margin-top: 180px;
+}
+.photo{
+    display: flex;
+}
+.gameer{
+    margin-top: 120px;
+    display: flex;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+    background-color:whitesmoke;
+    height:28%;
+    gap: 2rem;
+}
+.pw1{
+    margin-left: 120px;
+    font-family: "Satisfy", cursive;
+}
+.title p{
+    font-size: 15px;
+    font-family: "Abril Fatface", serif;
+}
+.card-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4Iu9S6WCIC00Ced07UVbtmUKBV-2-MZW-xeGVYcLHc3Trpgg);
+    margin-top: 180px;
+    height:300px;
+    width:300px;
+}
+.card-1 img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    position: relative;
+    /* right:35%; */
+    top:35px;
+    position:relative;
+    left:17%;
+  
+    
+}
+.imgss{
+    display: flex;
+    margin-left: 170px;
+}
+.card-2{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSx6r_gepYvdu6FVAF4VHR46COan4G78qoQFmeqX8kmMJ84iyWy);
+    margin-top: 180px;
+    height:300px;
+    width:300px;
+}
+.card-3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPW_JsJNTF-oU_o6B-sVdv3k1QErfUNmmheSm4PgHmojlZt0mJ);
+    margin-top: 180px;
+    background-color: blue;
+    height:300px;
+    width:300px;
+}
+.card-3:hover{
+    background-color: blue;
+}
+
+.card-2 img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    position: relative;
+    /* right:25%; */
+    top:35px;
+    
+    left:17%;
+}
+.card-3 img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    position: relative;
+    /* right:15%; */
+    top:35px;
+    left:17%;
+}
+.pp1 {
+    color:beige;
+    position: relative;
+    right:45%;
+    bottom: 20%;
+    color:blue;
+    font-family: "Satisfy", cursive;
+}
+.pp2{
+    bottom:35%;
+}
+.paara button {
+    color: whitesmoke;
+    margin-left: 120px;
+    font-family: "Baskervville SC", serif;
+    margin-top: 30px;
+cursor: pointer;
+-webkit-text-stroke: .5px rgba(184, 225, 173, 0.533);
+background-color: blueviolet;
+
+}
+.paras p{
+    color:antiquewhite;
+    -webkit-text-stroke: .5px #bfa87e;
+    font-size: 34px;
+    font-family: "Baskervville SC", serif;
+    margin-top:280px;
+    margin-right: 190px;
+}
+.paras1{
+    color:antiquewhite;
+    -webkit-text-stroke: .5px #bfa87e;
+    font-size: 20px;
+    font-family: "Baskervville SC", serif;
+    margin-top:300px;
+
+}
+.row1{
+    display: flex;
+    height: 400px;
+   background-color: black;
+   color: white;
+   
+}
+
+.row1 h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+.row1 .img3{
+   width: 400px;
+   margin-left: 150px;
+  
+
+}
+.row1 .p1{
+    width: 300px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 250px;
+}
+.row1 .btn1{
+    /* width: 300px; */
+    /* text-align: justfy; */
+    margin-left: 350px;
+    background-color:rgb(243, 213, 156);;
+    color: black;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.row1 .btn1:hover{
+    background-color: black;
+    color:rgb(243, 213, 156); ;
+}
+.img1 img{
+    margin-top: 150px;
+}
